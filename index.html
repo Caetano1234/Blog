@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Link Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu de Navegação -->
+    <ul class="nav" id="menu">
+        <li class="nav-item">
+          <a class="nav-link fs-4" href="#viagens">Viagens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4" href="#filmes">Filmes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4" href="#livros">Livros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link fs-4" href="#contatos">Contatos</a>
+          </li>
+    </ul>
+
+
+      <br>
+    <!-- Seção Viagem -->
+    <div class="container" id="viagens">
+        <h2 class="page-header" style="margin-top: 30px;">Lugares que você precisa conhecer!</h2>
+        <div class="text-center">
+            <img src="Imagens/imagem1 - lugares para conhecer.jpg" alt="Imagem1">
+            <h4 class="text-success">Cobal - Humaitá, Rua Voluntários da Pátria</h4>
+            <p class="text-muted fs-5">Apesar de não estar tão movimentado hoje (muito por causa da pandêmia), a Cobal já foi um dos principais centro de coméricio da região do Humaitá. Lá ainda restam algumas lojas. É muito legal visitar lá. A Cobal realmente tem muitas histórias.</p>
+
+            <div class="line"></div>
+
+            <img src="Imagens/imagem2 - lugares para conhcer.jpeg" alt="Imagem1">
+            <h4 class="text-success">Gurilândia - Humaitá, Rua São Clemente</h4>
+            <p class="text-muted fs-5">É um clube muito legal de ir. Lá, existem piscinas, quadras e gramados de basquete e futebol e muita diversão! Frequentemente vou lá com os meus amigos. Geralmente vamos para jogar bola, mas as vezes tiramos umas pausas para um lanche. Lá é muito divertido!</p>
+        </div>
+    </div>
+
+    <!-- Seção Filmes -->
+    <div class="container" id="filmes">
+      <h2 class="page-header">Filmes</h2>
+      <!-- Primeiro Filme -->
+    <button class="text-bg-primary filme" type="button" data-bs-toggle="collapse" data-bs-target="#filme1" aria-expanded="false" aria-controls="filme1">
+      &nbsp;
+      <i class="fa-solid fa-film"></i>
+      &nbsp;
+      Pinóquio - Live Action de Guillermo del Toro
+    </button>
+    <div class="collapse" id="filme1">
+      <div class="card card-body">
+        <img src="Imagens/filme1.jpg" alt="" class="w-50">
+        <h5 class="text-success">Filme muito bom, muito bem feito e produzido.
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </h5>
+        <p>Esse filme retrata muito bem a história de Pinnochio original, mas também traz alguns elementos novos. Retrata bem como era viver na Segunda Guerra Mundial, pois o filme se passa nessa época, na Itália, durante a ditadura de Mussolini. Filme muito lindo! Não foi atoa que ganhou o Oscar!</p>
+      </div>
+    </div>
+  
+      <!-- Segundo Filme -->
+    <button class="text-bg-primary filme" type="button" data-bs-toggle="collapse" data-bs-target="#filme2" aria-expanded="false" aria-controls="filme2">
+        &nbsp;
+        <i class="fa-solid fa-film"></i>
+        &nbsp;
+        Homem Formiga e a Vespa - Quantumania 
+    </button>
+    <div class="collapse" id="filme2">
+       <div class="card card-body">
+         <img src="Imagens/filme2.jpg" alt="" class="w-50">
+          <h5 class="text-success">Filme bom, mas poderia ser melhor
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-regular fa-star"></i>
+         </h5>
+         <p>Esse filme entrega tudo que nós esperavamos, sem nenhuma surpresa ou coisa assim. Apesar disso, esse filme confirma o que vimos anteriormente em Loki e em outros filmes e séries da Marvel. Filme bom, mas poderia ter um roteiro mais interessante e bem pensado.</p>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Seção Livros -->
+    <div class="container" id="livros">
+      <h2 class="page-header">Livros</h2>
+      <div class="row">
+        <div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <img src="Imagens/livro1.jpg" alt="ImagemLivro1" class="w-75">
+          <hr>
+          <a href="https://www.amazon.com.br/livro-selvagem-Juan-Villoro/dp/8535919864/ref=asc_df_8535919864/?tag=googleshopp00-20&linkCode=df0&hvadid=379792572947&hvpos=&hvnetw=g&hvrand=6736211605187440096&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001655&hvtargid=pla-810979560923&psc=1" target="_blank" class="fs-3">O Livro Selvagem</a>
+        </div>
+        <div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <img src="Imagens/livro2.jpg" alt="ImagemLivro1" class="w-75">
+          <hr>
+          <a href="https://www.amazon.com.br/Ladr%C3%A3o-Raios-S%C3%A9rie-Jackson-Olimpianos/dp/8580575397" target="_blank" class="fs-3">Percy Jackson e o Ladrão de Raios</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Seção Contatos -->
+    <div class="container" id="contatos">
+      <h2 class="page-header">Contatos</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7347.799122563195!2d-43.21364790709838!3d-22.953925819082084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fd5984aa13f%3A0x9dc984d7019502de!2sCristo%20Redentor!5e0!3m2!1spt-BR!2sbr!4v1680042406753!5m2!1spt-BR!2sbr" width="100%  " height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="row">
+        <div class="col">
+          <img src="Imagens/super-manimg.jpg" alt="" class="w-25 rounded-circle">
+        </div>
+        <div class="col">
+          <a href="https://github.com/Caetano1234" target="_blank">
+            <h5>
+              <i class="fa-brands fa-github"></i>
+              caetano1234
+            </h5>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
